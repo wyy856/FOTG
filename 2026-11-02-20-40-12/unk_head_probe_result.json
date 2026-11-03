@@ -1,0 +1,154 @@
+{
+  "ckpt_epoch": 30,
+  "n_images_done": 300,
+  "n_unk_gt": 1209,
+  "n_ck_gt": 129,
+  "score_stats": {
+    "unk_pos": {
+      "n": 1209,
+      "mean": 0.0201,
+      "median": 0.0175,
+      "p10": 0.0105,
+      "p90": 0.0328,
+      "frac>0.5": 0.0,
+      "frac>0.7": 0.0,
+      "hist_0.1bins": [
+        1209,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "known_neg": {
+      "n": 1428,
+      "mean": 0.0212,
+      "median": 0.0172,
+      "p10": 0.0102,
+      "p90": 0.0352,
+      "frac>0.5": 0.0,
+      "frac>0.7": 0.0,
+      "hist_0.1bins": [
+        1425,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "bg_neg": {
+      "n": 27363,
+      "mean": 0.0164,
+      "median": 0.0142,
+      "p10": 0.0088,
+      "p90": 0.0262,
+      "frac>0.5": 0.0,
+      "frac>0.7": 0.0,
+      "hist_0.1bins": [
+        27349,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "unk_pos_with_iou50": {
+    "n": 25,
+    "mean": 0.0333,
+    "median": 0.0289,
+    "p10": 0.0188,
+    "p90": 0.0486,
+    "frac>0.5": 0.0,
+    "frac>0.7": 0.0,
+    "hist_0.1bins": [
+      25,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "no_gate_baseline": {
+    "AOSA": 0,
+    "CK_det": 21272,
+    "CK_TP": 0,
+    "CK_precision_proxy": 0.0
+  },
+  "threshold_scan": [
+    {
+      "thr": 0.05,
+      "U_R50": 0.0496,
+      "AOSA": 644,
+      "n_known_det": 29634,
+      "CK_det": 26734,
+      "CK_TP": 81,
+      "CK_precision_proxy": 0.003
+    },
+    {
+      "thr": 0.1,
+      "U_R50": 0.0058,
+      "AOSA": 648,
+      "n_known_det": 29983,
+      "CK_det": 27040,
+      "CK_TP": 82,
+      "CK_precision_proxy": 0.003
+    },
+    {
+      "thr": 0.2,
+      "U_R50": 0.0,
+      "AOSA": 648,
+      "n_known_det": 30000,
+      "CK_det": 27055,
+      "CK_TP": 82,
+      "CK_precision_proxy": 0.003
+    },
+    {
+      "thr": 0.3,
+      "U_R50": 0.0,
+      "AOSA": 648,
+      "n_known_det": 30000,
+      "CK_det": 27055,
+      "CK_TP": 82,
+      "CK_precision_proxy": 0.003
+    },
+    {
+      "thr": 0.5,
+      "U_R50": 0.0,
+      "AOSA": 648,
+      "n_known_det": 30000,
+      "CK_det": 27055,
+      "CK_TP": 82,
+      "CK_precision_proxy": 0.003
+    },
+    {
+      "thr": 0.7,
+      "U_R50": 0.0,
+      "AOSA": 648,
+      "n_known_det": 30000,
+      "CK_det": 27055,
+      "CK_TP": 82,
+      "CK_precision_proxy": 0.003
+    }
+  ]
+}
