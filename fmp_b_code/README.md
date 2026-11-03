@@ -1,6 +1,6 @@
 # FMP B run（FMP + 独立 unk_head）代码整理
 
-来源：服务器 172.29.2.188 `/dev/shm/unkhead/`（fmp/ + proj/models），即 B run
+来源：/dev/shm/unkhead/`（fmp/ + proj/models），即 B run
 （`/dev/shm/unkhead_out/task2_train/`，unk_head_w=1.0）实际加载的代码。
 打包时间：2026-11-03 15:03。
 
